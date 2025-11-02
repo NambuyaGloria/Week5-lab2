@@ -159,7 +159,7 @@ students.forEach(stu => {
 console.log(`Class Avg: ${classAvg}`);
 console.log(`Passed: ${passedStudents.length}/${students.length}`);
 
-// helper: group array items by a given property
+
 function groupBy(arr, key) {
   return arr.reduce((acc, item) => {
     const k = item[key];
